@@ -5,17 +5,6 @@ try
     $temp = "$ENV:SystemRoot\Temp"
     $baseUrl = "https://raw.github.com/cloudbase/windows-openstack-imaging-tools/master"
 
-    # Put the wallpaper in place
-    $wallpaper_dir = "$ENV:SystemRoot\web\Wallpaper\Cloudbase"
-    if (!(Test-Path $wallpaper_dir))
-    {
-        mkdir $wallpaper_dir
-    }
-
-    $Host.UI.RawUI.WindowTitle = "Downloading wallpaper..."
-    $wallpaper = "Wallpaper-Cloudbase-2013.png"
-    (new-object System.Net.WebClient).DownloadFile("$baseUrl/$wallpaper", "$wallpaper_dir\$wallpaper")
-
     $Host.UI.RawUI.WindowTitle = "Configuring GPOs..."
 
     $gpoZipFile = "GPO.zip"
