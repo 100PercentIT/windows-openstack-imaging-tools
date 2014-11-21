@@ -79,10 +79,10 @@
             <SetupUILanguage>
                 <UILanguage>en-US</UILanguage>
             </SetupUILanguage>
-            <InputLocale>en-US</InputLocale>
-            <UILanguage>en-US</UILanguage>
-            <SystemLocale>en-US</SystemLocale>
-            <UserLocale>en-US</UserLocale>
+            <InputLocale>en-GB</InputLocale>
+            <UILanguage>en-GB</UILanguage>
+            <SystemLocale>en-GB</SystemLocale>
+            <UserLocale>en-GB</UserLocale>
         </component>
     </settings>
     <settings pass="oobeSystem">
@@ -189,13 +189,6 @@
         </component>
         <component name="Microsoft-Windows-SQMApi" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <CEIPEnabled>0</CEIPEnabled>
-        </component>
-        <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <SystemLocale>en-GB</SystemLocale>
-            <UserLocale>en-GB</UserLocale>
-            <UILanguage>en-GB</UILanguage>
-            <InputLocale>0809:00000809</InputLocale>
-            <UILanguageFallback>en-GB</UILanguageFallback>
         </component>
     </settings>
 </unattend>
