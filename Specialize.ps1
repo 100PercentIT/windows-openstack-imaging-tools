@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 try
 {
     $temp = "$ENV:SystemRoot\Temp"
-    $baseUrl = "https://raw.github.com/cloudbase/windows-openstack-imaging-tools/master"
+    $baseUrl = "https://raw.github.com/100PercentIT/windows-openstack-imaging-tools/master"
 
     $Host.UI.RawUI.WindowTitle = "Configuring GPOs..."
 
